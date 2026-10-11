@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Portal | CivicCare</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">CivicCare</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="citizen.html">Citizen Portal</a>
+      <a href="admin.html">Admin Portal</a>
+      <a href="department.html">Department Portal</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow">ADMINISTRATION</p>
+    <h1>Admin Complaint Dashboard</h1>
+    <p class="hero-text">View complaints submitted by citizens and assign them to departments.</p>
+
+    <section class="features">
+      <article class="feature-card">
+        <h2 id="totalCount">0</h2>
+        <p>Total Complaints</p>
+      </article>
+      <article class="feature-card">
+        <h2 id="pendingCount">0</h2>
+        <p>Pending Complaints</p>
+      </article>
+      <article class="feature-card">
+        <h2 id="resolvedCount">0</h2>
+        <p>Resolved Complaints</p>
+      </article>
+    </section>
+
+    <h2>All Citizen Complaints</h2>
+    <p id="emptyMessage">No complaints submitted yet. Submit one from the Citizen Portal first.</p>
+    <div id="complaintsList"></div>
+  </main>
+</body>
+</html>

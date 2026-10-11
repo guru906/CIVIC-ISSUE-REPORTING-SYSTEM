@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department Portal | CivicCare</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">CivicCare</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="citizen.html">Citizen Portal</a>
+      <a href="admin.html">Admin Portal</a>
+      <a href="department.html">Department Portal</a>
+    </nav>
+
+    <select id="languageSelect" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="ta">தமிழ்</option>
+    </select>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow">DEPARTMENT SERVICES</p>
+    <h1>Department Staff Portal</h1>
+    <p class="hero-text">
+      View assigned complaints and update the progress of civic work.
+    </p>
+
+    <h2>Assigned Complaints</h2>
+    <p id="departmentEmpty">No complaints assigned to departments yet.</p>
+    <div id="departmentComplaints"></div>
+  </main>
+</body>
+</html>

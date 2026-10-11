@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CivicCare | Civic Issue Reporting</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">🏛 CivicCare</a>
+
+    <nav>
+      <a href="#home" data-en="Home" data-ta="முகப்பு">Home</a>
+      <a href="#about" data-en="About" data-ta="எங்களைப் பற்றி">About</a>
+      <a href="citizen.html" data-en="Citizen Portal" data-ta="மக்கள் தளம்">Citizen Portal</a>
+      <a href="admin.html" data-en="Admin" data-ta="நிர்வாகம்">Admin</a>
+      <a href="department.html" data-en="Staff" data-ta="பணியாளர்">Staff</a>
+    </nav>
+
+    <select id="languageSelect" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="ta">தமிழ்</option>
+    </select>
+  </header>
+
+  <main id="home" class="hero">
+    <p class="eyebrow"
+       data-en="YOUR CITY, YOUR VOICE"
+       data-ta="உங்கள் நகரம், உங்கள் குரல்">
+      YOUR CITY, YOUR VOICE
+    </p>
+
+    <h1 data-en="Report Civic Issues. Build a Better Community."
+        data-ta="பொதுப் பிரச்சினைகளைப் பதிவு செய்யுங்கள். சிறந்த சமூகத்தை உருவாக்குங்கள்.">
+      Report Civic Issues. Build a Better Community.
+    </h1>
+
+    <p class="hero-text"
+       data-en="Report garbage, damaged roads, drainage problems and broken streetlights. Track your complaint until resolution."
+       data-ta="குப்பைகள், சேதமடைந்த சாலைகள், வடிகால் பிரச்சினைகள் மற்றும் பழுதடைந்த தெருவிளக்குகளைப் பதிவு செய்யுங்கள். தீர்வு கிடைக்கும் வரை புகாரைக் கண்காணியுங்கள்.">
+      Report garbage, damaged roads, drainage problems and
+      broken streetlights. Track your complaint until resolution.
+    </p>
+
+    <div class="actions">
+      <a class="button primary" href="citizen.html"
+         data-en="Report an Issue"
+         data-ta="பிரச்சினையைப் பதிவு செய்க">
+        Report an Issue
+      </a>
+
+      <a class="button secondary" href="citizen.html#track"
+         data-en="Track Complaint"
+         data-ta="புகாரைக் கண்காணிக்க">
+        Track Complaint
+      </a>
+    </div>
+  </main>
+
+  <section class="features" id="about">
+    <article class="feature-card">
+      <h2 data-en="01. Report" data-ta="01. புகார் பதிவு">01. Report</h2>
+      <p data-en="Submit your civic issue with its location and details."
+         data-ta="பிரச்சினையின் இடம் மற்றும் விவரங்களுடன் புகாரைப் பதிவு செய்யுங்கள்.">
+        Submit your civic issue with its location and details.
+      </p>
+    </article>
+
+    <article class="feature-card">
+      <h2 data-en="02. Resolve" data-ta="02. தீர்வு">02. Resolve</h2>
+      <p data-en="The responsible department receives and handles your complaint."
+         data-ta="சம்பந்தப்பட்ட துறை உங்கள் புகாரைப் பெற்று நடவடிக்கை எடுக்கும்.">
+        The responsible department receives and handles your complaint.
+      </p>
+    </article>
+
+    <article class="feature-card">
+      <h2 data-en="03. Verify" data-ta="03. சரிபார்ப்பு">03. Verify</h2>
+      <p data-en="Administrators review the work and verify the resolution."
+         data-ta="நிர்வாகிகள் பணியை ஆய்வு செய்து தீர்வைச் சரிபார்ப்பார்கள்.">
+        Administrators review the work and verify the resolution.
+      </p>
+    </article>
+  </section>
+
+  <footer>
+    <p data-en="CivicCare — Civic Issue Reporting System"
+       data-ta="CivicCare — பொதுப் பிரச்சினைகள் புகார் அமைப்பு">
+      CivicCare — Civic Issue Reporting System
+    </p>
+    <p data-en="Student project prototype"
+       data-ta="மாணவர் திட்ட மாதிரி">
+      Student project prototype
+    </p>
+  </footer>
+</body>
+</html>

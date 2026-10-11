@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | CivicCare</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">CivicCare</a>
+    <a href="index.html">Home</a>
+  </header>
+
+  <main class="hero">
+    <section class="feature-card login-card">
+      <p class="eyebrow">WELCOME TO CIVICCARE</p>
+      <h1>Sign in to continue</h1>
+      <p class="hero-text">Choose your role and enter the demo credentials.</p>
+
+      <form id="loginForm" class="complaint-form">
+        <label for="loginRole">Login as</label>
+        <select id="loginRole" required>
+          <option value="citizen">Citizen</option>
+          <option value="admin">Administrator</option>
+          <option value="department">Department Staff</option>
+        </select>
+
+        <label for="loginUsername">Username</label>
+        <input id="loginUsername" required autocomplete="username"
+               placeholder="Enter username">
+
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" required
+               autocomplete="current-password" placeholder="Enter password">
+
+        <button class="button primary" type="submit">Login</button>
+        <p id="loginMessage" role="alert" aria-live="polite"></p>
+      </form>
+
+      <hr>
+      <h3>Demo login credentials</h3>
+      <p><strong>Citizen:</strong> citizen / citizen123</p>
+      <p><strong>Admin:</strong> admin / admin123</p>
+      <p><strong>Department:</strong> staff / staff123</p>
+      <p class="hero-text">
+        Demo only: these credentials are not secure authentication.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
